@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#030712">
+  <meta name="description" content="Sadhan NP — Data Analyst, AI Explorer and Business Thinker. Explore analytics projects, skills and experience.">
+  <title>Sadhan NP | Data Analyst Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <header class="navbar" id="top">
+    <a class="logo" href="#home" aria-label="Sadhan NP home"><span class="logo-mark">🏕️</span><span>SADHAN <b>NP</b></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="navLinks"><span></span><span></span><span></span></button>
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a href="#home" class="active">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="cv-button" href="asset/Sadhan_NP_CV.pdf" download>Download CV <span>↓</span></a>
+  </header>
+
+  <nav class="side-dots" aria-label="Section navigation">
+    <a href="#home" class="dot active" aria-label="Home"><span>Home</span></a><a href="#about" class="dot" aria-label="About"><span>About</span></a><a href="#skills" class="dot" aria-label="Skills"><span>Skills</span></a><a href="#experience" class="dot" aria-label="Experience"><span>Experience</span></a><a href="#projects" class="dot" aria-label="Projects"><span>Projects</span></a><a href="#contact" class="dot" aria-label="Contact"><span>Contact</span></a>
+  </nav>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-sky" aria-hidden="true"><div class="stars stars-one"></div><div class="stars stars-two"></div><div class="shooting-star"></div><div class="shooting-star shooting-star-two"></div><div class="moon"></div></div>
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-container">
+        <div class="hero-image reveal-left">
+          <div class="portrait-ring"></div>
+          <img src="asset/pp.jpeg" alt="Portrait of Sadhan NP" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+          <div class="portrait-fallback" aria-hidden="true">SNP</div>
+          <span class="orbit orbit-one"></span><span class="orbit orbit-two"></span>
+          <div class="floating-tag"><span class="status-dot"></span> Open to opportunities</div>
+        </div>
+        <div class="hero-content reveal-right">
+          <p class="eyebrow"><span class="eyebrow-line"></span> HELLO, I'M</p>
+          <div class="name-energy"><h1>SADHAN <span>NP</span></h1></div>
+          <h2>I am a <span class="typed-text" id="typedText">Data Analyst</span><span class="typing-cursor">|</span></h2>
+          <p class="description">Exploring new heights in data, analytics and artificial intelligence. I turn information into meaningful insights and practical business decisions.</p>
+          <div class="hero-buttons"><a href="#about" class="primary-button">Explore My Journey <span>↓</span></a><a href="#projects" class="text-button"><span class="play-icon">▶</span> Explore Projects</a></div>
+          <div class="hero-meta"><span><i></i> Data &amp; Business</span><span>Based in UAE</span></div>
+        </div>
+      </div>
+      <div class="mountains" aria-hidden="true"><div class="mountain mountain-far"></div><div class="mountain mountain-mid"></div><div class="mountain mountain-front"></div></div>
+      <a class="scroll-indicator" href="#about"><span class="mouse-icon"><i></i></span><span>SCROLL TO EXPLORE</span></a>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="section-heading reveal"><span class="section-kicker">01 / INTRODUCTION</span><h2>Beyond the <span>Numbers</span></h2><p>A little about my journey and what drives me.</p></div>
+      <div class="about-container">
+        <article class="about-card glass-card reveal"><div class="card-icon">✦</div><p>I am Sadhan NP, a passionate Data Analyst and Business Professional, dedicated to turning data into meaningful insights and creating innovative solutions in the world of technology.</p><p class="about-extra">My interests bring together analytical thinking, business operations and emerging technology. I enjoy understanding problems, exploring data and communicating findings in a clear, useful way.</p><a href="#experience" class="inline-link">Discover my experience <span>↗</span></a></article>
+        <div class="about-highlights">
+          <div class="highlight-item reveal"><span class="highlight-icon">▥</span><div><b>Data Analysis &amp; Visualization</b><small>Finding patterns and communicating insights</small></div><span class="highlight-arrow">↗</span></div>
+          <div class="highlight-item reveal"><span class="highlight-icon">⌘</span><div><b>AI &amp; Machine Learning</b><small>Exploring intelligent technology</small></div><span class="highlight-arrow">↗</span></div>
+          <div class="highlight-item reveal"><span class="highlight-icon">▣</span><div><b>Business Operations</b><small>Connecting data with business needs</small></div><span class="highlight-arrow">↗</span></div>
+          <div class="highlight-item reveal"><span class="highlight-icon">✧</span><div><b>Problem Solving</b><small>Practical thinking and improvement</small></div><span class="highlight-arrow">↗</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+      <div class="section-heading reveal"><span class="section-kicker">02 / TOOLKIT</span><h2>Skills &amp; <span>Expertise</span></h2><p>Tools and strengths I bring to analytical and business challenges.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal" data-level="75"><span class="skill-icon">🐍</span><h3>Python</h3><p>Data analysis &amp; scripting</p><div class="skill-track"><span></span></div></article>
+        <article class="skill-card reveal" data-level="80"><span class="skill-icon">▥</span><h3>Power BI</h3><p>Dashboards &amp; visualization</p><div class="skill-track"><span></span></div></article>
+        <article class="skill-card reveal" data-level="85"><span class="skill-icon">▦</span><h3>Excel</h3><p>Analysis &amp; reporting</p><div class="skill-track"><span></span></div></article>
+        <article class="skill-card reveal" data-level="70"><span class="skill-icon">▤</span><h3>SQL</h3><p>Queries &amp; data handling</p><div class="skill-track"><span></span></div></article>
+        <article class="skill-card reveal" data-level="80"><span class="skill-icon">◫</span><h3>Data Analysis</h3><p>Insights &amp; interpretation</p><div class="skill-track"><span></span></div></article>
+        <article class="skill-card reveal" data-level="85"><span class="skill-icon">◈</span><h3>Business Strategy</h3><p>Operations &amp; planning</p><div class="skill-track"><span></span></div></article>
+        <article class="skill-card reveal" data-level="85"><span class="skill-icon">◎</span><h3>Communication</h3><p>Teamwork &amp; presentation</p><div class="skill-track"><span></span></div></article>
+      </div>
+      <p class="skills-note reveal">Skill-bar values are editable estimates. Adjust them to reflect your actual proficiency before publishing.</p>
+    </section>
+
+    <section id="experience" class="section experience-section">
+      <div class="section-heading reveal"><span class="section-kicker">03 / MY JOURNEY</span><h2>Experience &amp; <span>Impact</span></h2><p>Experience built through operations, sales and business responsibilities.</p></div>
+      <div class="experience-container">
+        <article class="exp-summary glass-card reveal"><span class="card-icon">✦</span><h3>Business-minded. Data-driven.</h3><p>Building a career with valuable experience in operations, sales and data. I value practical problem-solving, team coordination and continuous learning.</p><a href="#contact" class="inline-link">Let's connect <span>↗</span></a></article>
+        <div class="exp-stats">
+          <article class="stat-box reveal"><span class="stat-icon">◷</span><strong class="counter" data-target="2" data-suffix="+">0</strong><p>Years in Bakery &amp; Food Court Management</p></article>
+          <article class="stat-box reveal"><span class="stat-icon">↗</span><strong class="counter" data-target="60" data-suffix="%">0</strong><p>Business turnover growth (₹6 Cr)</p></article>
+          <article class="stat-box reveal"><span class="stat-icon">♧</span><strong class="counter" data-target="15" data-suffix="+">0</strong><p>Team leadership &amp; operations</p></article>
+        </div>
+      </div>
+      <div class="timeline reveal"><div class="timeline-line"></div><div class="timeline-item"><span class="timeline-dot"></span><div><small>BUSINESS &amp; OPERATIONS</small><h3>Business Operations Experience</h3><p>Experience across sales, daily operations, team coordination and business development.</p></div></div><div class="timeline-item"><span class="timeline-dot"></span><div><small>DATA &amp; ANALYTICS</small><h3>Developing Analytical Skills</h3><p>Building practical skills in Excel, SQL, Python and Power BI through learning and projects.</p></div></div></div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+      <div class="section-heading reveal"><span class="section-kicker">04 / SELECTED WORK</span><h2>Projects &amp; <span>Exploration</span></h2><p>Exploring ideas through data, analytics and creativity.</p></div>
+      <div class="projects-grid">
+        <article class="project-card reveal"><div class="project-visual bus-visual"><span class="visual-label">POWER BI / DATA</span><div class="mini-chart"><i style="height:35%"></i><i style="height:62%"></i><i style="height:48%"></i><i style="height:82%"></i><i style="height:68%"></i><i style="height:96%"></i></div><div class="visual-caption">TRANSPORT INSIGHTS</div></div><div class="project-info"><span class="project-number">PROJECT 01</span><h3>KSRTC Bus Dashboard</h3><p>Transport data visualization and dashboard concept.</p><div class="project-tags"><span>Power BI</span><span>Analytics</span></div><a href="mailto:sadhannp036@gmail.com?subject=KSRTC%20Bus%20Dashboard" class="project-link">Ask about project <span>↗</span></a></div></article>
+        <article class="project-card reveal"><div class="project-visual sales-visual"><span class="visual-label">BUSINESS / ANALYTICS</span><div class="sales-bars"><i></i><i></i><i></i><i></i><i></i></div><div class="visual-caption">SALES PERFORMANCE</div></div><div class="project-info"><span class="project-number">PROJECT 02</span><h3>Sales Analytics Dashboard</h3><p>Sales trends, performance indicators and business insights.</p><div class="project-tags"><span>Excel</span><span>Power BI</span></div><a href="mailto:sadhannp036@gmail.com?subject=Sales%20Analytics%20Dashboard" class="project-link">Ask about project <span>↗</span></a></div></article>
+        <article class="project-card reveal"><div class="project-visual ai-visual"><span class="visual-label">PYTHON / AI</span><div class="ai-orb"><span>AI</span></div><div class="visual-caption">SMART CONVERSATION</div></div><div class="project-info"><span class="project-number">PROJECT 03</span><h3>AI Chatbot with Python</h3><p>A Python chatbot concept exploring conversational interaction.</p><div class="project-tags"><span>Python</span><span>AI</span></div><a href="mailto:sadhannp036@gmail.com?subject=Python%20AI%20Chatbot" class="project-link">Ask about project <span>↗</span></a></div></article>
+      </div>
+      <p class="projects-note reveal">Replace these concept previews with screenshots, GitHub repositories and live project links when your work is ready to showcase.</p>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-stars" aria-hidden="true"></div>
+      <div class="section-heading reveal"><span class="section-kicker">05 / SAY HELLO</span><h2>Let's build something <span>meaningful.</span></h2><p>Have a project in mind or want to collaborate? I'd be happy to connect.</p></div>
+      <a href="mailto:sadhannp036@gmail.com" class="primary-button reveal">Contact Me <span>↗</span></a>
+      <div class="contact-details reveal"><a href="mailto:sadhannp036@gmail.com">sadhannp036@gmail.com</a><a href="https://linkedin.com/in/sadhan-n-p-82aa1b220" target="_blank" rel="noopener noreferrer">LinkedIn Profile ↗</a></div>
+      <footer class="footer-bottom"><a class="footer-logo" href="#home">SADHAN <b>NP</b></a><p class="quote">Dream · Explore · Achieve</p><p class="copyright">© <span id="year"></span> Sadhan NP. Built with curiosity and code.</p></footer>
+    </section>
+  </main>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+</body>
+</html>
